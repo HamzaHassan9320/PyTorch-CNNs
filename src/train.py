@@ -55,7 +55,7 @@ def train_model(model, train_loader, device, epochs=10, lr=0.01, momentum=0.9, w
 
         print(f"Epoch [{epoch+1}/{epochs}], "
               f"Loss: {epoch_loss:.4f}, "
-              f"Acc: {epoch_acc:.2}%, "
+              f"Acc: {epoch_acc:.2f}%, "
               f"Time: {(end_time - start_time):.2f}s")
         
     return model
